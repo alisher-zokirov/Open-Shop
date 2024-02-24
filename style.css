@@ -1,0 +1,730 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1920px;
+    height: auto;
+    border: 1px solid #313131;
+    margin: 0 auto;
+    background: #313131;
+}
+
+/* navbar top */
+.navbar-top{
+    width: 1920px;
+    height: 50px;
+    background: #0C0C0C;
+}
+
+
+.top-links{
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.98px;
+    gap: 75px;
+    margin-left: 1099px;
+}
+
+.top-links a{
+    text-decoration: none;
+    color: #FFF;
+}
+/* navbar top end */
+
+/* navbar */
+.navbar-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 315px;
+}
+
+.nav-input{
+    width: 440px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #BBB;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar-bt{
+    width: 190px;
+    height: 50px;
+    background: none;
+    border: 1px solid #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nv-tag-ul{
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0.9px;
+    gap: 20px;
+    list-style: none;
+}
+/* navbar end */
+
+/* header */
+.header-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.header-text h1{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px; 
+    letter-spacing: 2.4px;
+    text-align: center;
+}
+
+.hd-button button{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.uch-nuqta{
+    margin-left: 918px;
+}
+/* header end */
+
+/* boxes */
+.boxes-all{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.box1{
+    width: 630px;
+    height: 500px;
+    background: url(<path-to-image>), lightgray 171.857px 32.216px / 44.281% 68.6% no-repeat;
+    box-shadow: -10px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+}
+
+.boxse-bt{
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    border-radius: 50%;
+    color: white;
+}
+
+.box1 img{
+    margin-top: -80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box1 h3{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 1.2px;
+    margin-top: -110px;
+}
+
+.box1 p{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 70px; 
+    letter-spacing: 1.2px;
+    margin-top: -40px;
+}
+
+.box2{
+    width: 630px;
+    height: 235px;
+    background-image: url(./img/boxes-img2.png);
+    background-repeat: no-repeat;   
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.boxse-bt2{
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    border-radius: 50%;
+    color: white;   
+}
+
+.box2 h3{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.box2 p{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 1.2px;
+}
+
+.box3{
+    width: 300px;
+    height: 235px;
+    background: #FFF;
+    padding: 15px 20px;
+}
+
+.boxse-bt3{
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    border-radius: 50%;
+    color: white;   
+    margin-top: 82px;
+}
+
+.box3 h3{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.box3 img{
+    margin-top: -240px;
+    margin-left: -30px;
+}
+
+
+.box4{
+    width: 300px;
+    height: 235px;
+    background: #FFF;
+    padding: 15px 20px;
+}
+
+.boxse-bt4{
+    width: 70px;
+    height: 70px;
+    background: #313131;
+    border-radius: 50%;
+    color: white;   
+    margin-top: 112px;
+}
+
+.box4 h3{
+    color: #313131;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+}
+
+.box4 img{
+    margin-top: -240px;
+    margin-left: -20px;
+}
+
+.ikki-box{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.tag-bt{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 865px;
+    margin-top: 30px;
+}
+/* boxes end */
+
+.left-text{
+    margin-top: 70px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 315px;
+}
+
+/* iphones */
+.iphone-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.iphone1{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/iphone-1.png);
+}
+
+.iphone1 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 255px;
+}
+
+.iphone1 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.iphone2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/iphone-2.png);
+}
+
+.iphone2 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 255px;
+}
+
+.iphone2 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.iphone3{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/iphone-3.png);
+}
+
+.iphone3 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 255px;
+}
+
+.iphone3 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.iphone4{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/iphone-4.png);
+}
+
+.iphone4 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 255px;
+}
+
+.iphone4 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.phone-bt{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 865px;
+    margin-top: 60px;
+}
+/* iphones end */
+
+.laptop-text{
+    margin-top: 70px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    margin-left: 315px;
+}
+
+/* compyuter */
+.komp-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.komp-1{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/komp-1.png);
+}
+
+.komp-1 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 235px;
+}
+
+.komp-1 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.komp-2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/komp-2.png);
+}
+
+.komp-2 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 235px;
+}
+
+.komp-2 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.komp-3{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/komp-3.png);
+}
+
+.komp-3 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 235px;
+}
+
+.komp-3 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.komp-4{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/komp-4.png);
+}
+
+.komp-4 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 235px;
+}
+
+.komp-4 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+/* compyuter end */
+
+.center-text{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    margin-top: 42px;
+    cursor: pointer;
+}
+
+/* console */
+.console{
+    width: 1290px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(./img/console-bg-img.png);
+    margin-top: 70px;
+}
+
+.console-text h2{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.console-bt{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.console-all{
+    padding: 94px 20px;
+}
+
+.console-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+/* console end */
+
+.seller{
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 70px;
+    margin-left: 315px;
+}
+
+/* watch */
+.watch-all{
+    display: flex;
+    justify-content: center;
+    margin-top: 31px;
+    gap: 30px;
+}
+
+.watch-1{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/watch-1.png);
+}
+
+.watch-1 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 240px;
+}
+
+.watch-1 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.watch-2{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/watch-2.png);
+}
+
+.watch-2 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 240px;
+}
+
+.watch-2 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.watch-3{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/watch-3.png);
+}
+
+.watch-3 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 240px;
+}
+
+.watch-3 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.watch-4{
+    width: 300px;
+    height: 300px;
+    background-image: url(./img/watch-4.png);
+}
+
+.watch-4 h4{
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 240px;
+}
+
+.watch-4 p{
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* watch end */
+
+.watch-bt{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: none;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 865px;
+    margin-top: 47px;
+}
+
+/* footer */
+.footer{
+    width: 1920px;
+    height: 230px;
+    margin-top: 70px;
+    background-color: black;
+}
+
+.fopter-all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 150px;
+    padding: 30px;
+}
+
+.footer-input input{
+    width: 330px;
+    height: 50px;
+    background: #FFF;
+}
+
+.footer-bt{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFF;
+    background: #313131;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.footer-input p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-img{
+    margin-top: 20px;
+}
+
+.footer-text{
+    display: flex;
+    color: #FFF;
+    font-size: 23px;
+    font-weight: 400;
+    margin-left: 735px;
+    margin-top: 30px;
+    gap: 40px;
+}
+/* footer end */
